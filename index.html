@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- line Icon -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="./image/logo(2).png" type="image/x-icon">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Video Assignment Class 22</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header class="header_section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow position-fixed w-100 sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="icon"><img width="50px" src="./image/logo.png" alt=""></div>
+                    <div class="Logo ms-2 fs-4">AppAMP Theme</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown menu
+                            </a>
+                            <ul class="dropdown-menu bg-opacity-75 border-3 border-danger rounded-3 mt-3 bg-warning"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="button">
+                        <a class="btn btn-lg btn-outline-primary shadow px-5" href="#">Bye Now</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner section -->
+
+    <section class="banner_section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner_text text-center text-white">
+                        <div class="display-6">It is created to watch your health</div>
+                        <h1 class="display-4 fw-normal py-4">Health Tracker App</h1>
+                    </div>
+                    <form class="w-50 mx-auto" action="#">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <input class="form-control py-3 p3-2" type="text" name="text" placeholder="Your name"
+                                    id="">
+                            </div>
+                            <div class="col-lg-5">
+                                <button class="btn hover_w mx-auto w-100 text-center text-white fw-bold py-3 bg-success"
+                                    type="submit">Get Apps</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature section -->
+
+    <section class="feature_section py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h1 pb-3>100+</h1>
+                    <p class="lead">Health programs</p>
+                </div>
+                <div class="col-lg-3">
+                    <h1 pb-3>50+</h1>
+                    <p class="lead">Individual parameters</p>
+                </div>
+                <div class="col-lg-3">
+                    <h1 pb-3>2500+</h1>
+                    <p class="lead">Active users</p>
+                </div>
+                <div class="col-lg-3">
+                    <h1 pb-3>10x</h1>
+                    <p class="lead">Training efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activety Section -->
+
+    <section class="activety_section py-5 bg-secondary bg-opacity-10 ">
+        <div class="container-fluid">
+            <div class="row align-items-center g-5" style="height: 700px;">
+                <div class="col-lg-7">
+                    <h1 class="display-6 fw-normal">Activity Goals To Improve Health</h1>
+                    <p class="lead mt-3">Being active is important to our health, but how much or what kind of activity
+                        do you need? Health Tracker App worked with the World Health Organisation to develop two
+                        activity goals based on WHO's physical activity recommendations shown to impact health - Move
+                        Minutes and Heart Points</p>
+                </div>
+                <div class="col-lg-5">
+                    <img class=" h-100 img-thumbnail rounded" src="./image/015.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section class="about_section py-5 bg-opacity-10 bg-success">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h1 class="display-3 pb-3">Learn more about our application</h1>
+                    <p class="lead">Coaching you to a healthier and more active life</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="info d-flex align-items-center rounded shadow bg-white">
+                        <div class="image rounded-start h-100">
+                            <img src="./image/022.jpg" alt="">
+                        </div>
+                        <div class="content ms-4">
+                            <h3 class="mb-3 card-title">HEART POINTS</h3>
+                            <p class="small text-muted">Activities that get your heart pumping harder have tremendous
+                                health
+                                benefits for your heart and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info d-flex align-items-center rounded shadow bg-white">
+                        <div class="image rounded-start h-100">
+                            <img class="ms-3" src="./image/mbr-7.jpg" alt="">
+                        </div>
+                        <div class="content ms-4">
+                            <h3 class="mb-3 card-title">MOVE MINUTES</h3>
+                            <p class="small text-muted">Activities that get your heart pumping harder have tremendous
+                                health
+                                benefits for your heart and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info d-flex align-items-center rounded shadow bg-white">
+                        <div class="image rounded-start h-100">
+                            <img class="ms-5 ps-5" src="./image/mbr-8.jpg" alt="">
+                        </div>
+                        <div class="content ms-4">
+                            <h3 class="mb-3 card-title">FITNESS ASSESSMENT</h3>
+                            <p class="small text-muted">Activities that get your heart pumping harder have tremendous
+                                health
+                                benefits for your heart and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info d-flex align-items-center rounded shadow bg-white">
+                        <div class="image rounded-start h-100">
+                            <img src="./image/mbr-5.jpg" alt="">
+                        </div>
+                        <div class="content ms-4">
+                            <h3 class="mb-3 card-title">NUTRITIONAL SUCCESS</h3>
+                            <p class="small text-muted">Activities that get your heart pumping harder have tremendous
+                                health
+                                benefits for your heart and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info d-flex align-items-center rounded shadow bg-white">
+                        <div class="image rounded-start h-100">
+                            <img class="ms-5" src="./image/mbr-12.jpg" alt="">
+                        </div>
+                        <div class="content ms-4">
+                            <h3 class="mb-3 card-title">WORKOUTS</h3>
+                            <p class="small text-muted">Activities that get your heart pumping harder have tremendous
+                                health
+                                benefits for your heart and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info d-flex align-items-center rounded shadow bg-white">
+                        <div class="image rounded-start h-100">
+                            <img src="./image/mbr-13.jpg" alt="">
+                        </div>
+                        <div class="content ms-4">
+                            <h3 class="mb-3 card-title">MOTIVATION </h3>
+                            <p class="small text-muted">Activities that get your heart pumping harder have tremendous
+                                health
+                                benefits for your heart and mind.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallary section -->
+
+    <section class="galarry_section py-5 bg-secondary bg-opacity-10">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-lg-12">
+                    <h1 class="text-center display-3">Look at our application</h1>
+                </div>
+            </div>
+            <div class="row gx-3 gy-2">
+                <div class="col-lg-4 rounded-3">
+                    <div class="image rounded-3">
+                        <img class="img-fluid" src="./image/022.jpg" alt="">
+                        <div class="loading d-flex align-items-center justify-content-center">
+                            <div class="spinner-border text-white " role="status">
+                                <span class="visually-hidden-focusable">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="image rounded-3">
+                        <img class="img-fluid" src="./image/mbr-10.jpg" alt="">
+                        <div class="loading d-flex align-items-center justify-content-center">
+                            <div class="spinner-border text-primary " role="status">
+                                <span class="visually-hidden-focusable">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="image rounded-3">
+                        <img class="img-fluid" src="./image/mbr-11.jpg" alt="">
+                        <div class="loading d-flex align-items-center justify-content-center">
+                            <div class="spinner-border text-danger " role="status">
+                                <span class="visually-hidden-focusable">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="image rounded-3">
+                        <img class="img-fluid" src="./image/mbr-5.jpg" alt="">
+                        <div class="loading d-flex align-items-center justify-content-center">
+                            <div class="spinner-border text-warning " role="status">
+                                <span class="position-relative"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="image rounded-3">
+                        <img class="img-fluid" src="./image/mbr-13.jpg" alt="">
+                        <div class="loading d-flex align-items-center justify-content-center">
+                            <div class="spinner-border text-success " role="status">
+                                <span class="visually-hidden-focusable">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="image rounded-3">
+                        <img class="img-fluid" src="./image/mbr-10.jpg" alt="">
+                        <div class="loading d-flex align-items-center justify-content-center">
+                            <div class="spinner-border text-info " role="status">
+                                <span class="visually-hidden-focusable">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing table -->
+
+    <section class="pricing_table_area py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <article class="text-center">
+                        <h1 class="display-4 fw-normal">Start using our app today</h1>
+                        <p class="lead pt-2 pb-5">Being active is important to our health, but how much or what kind of
+                            activity do you need?</p>
+                    </article>
+                </div>
+            </div>
+            <div class="p-table w-75 mx-auto">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div class="table_info shadow-lg p-5 ">
+                            <h1>User Plan</h1>
+                            <p class="lead my-3">For Simple Users</p>
+                            <ul class="list-unstyled">
+                                <li class=" py-2 lead text-uppercase"><i
+                                        class="fas fa-check fs-3 me-1 text-warning"></i> Heart Points</li>
+                                <li class=" py-2 lead "><i class="fas fa-check fs-3 me-1 text-warning"></i> MOVE MINUTES
+                                </li>
+                                <li class=" py-2 lead "><i class="fas fa-times fs-3 me-3 text-warning"></i> FITNESS
+                                    ASSESSMENT</li>
+                                <li class=" py-2 lead "><i class="fas fa-times fs-3 me-3 text-warning"></i> NUTRITIONAL
+                                    SUCCESS</li>
+                            </ul>
+                            <div class="button text-center">
+                                <a href="#" class="btn btn-primary hover_w fw-bolder">Get Acces Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="table_info shadow-lg p-5 ">
+                            <h1>Starter Plan</h1>
+                            <p class="lead my-3">For Simple Users</p>
+                            <ul class="list-unstyled">
+                                <li class=" py-2 lead text-uppercase"><i
+                                        class="fas fa-check fs-3 me-1 text-warning"></i> Heart Points</li>
+                                <li class=" py-2 lead "><i class="fas fa-check fs-3 me-1 text-warning"></i> MOVE MINUTES
+                                </li>
+                                <li class=" py-2 lead "><i class="fas fa-times fs-3 me-3 text-warning"></i> FITNESS
+                                    ASSESSMENT</li>
+                                <li class=" py-2 lead "><i class="fas fa-times fs-3 me-3 text-warning"></i> NUTRITIONAL
+                                    SUCCESS</li>
+                            </ul>
+                            <div class="button text-center">
+                                <a href="#" class="btn btn-primary hover_w fw-bolder">Get Acces Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+
+    <section class="feedback_section text-center py-5 bg-dark bg-opacity-10">
+        <div class="container w-75">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="feedback_info">
+                        <h5 class="lead py-3">Feedback From our users</h5>
+                        <h1 class="fw-normal py-2">What do users Say about our application</h1>
+                        <span class="d-inline-block mx-auto text-secondary display-2 py-2 opacity-25"><i
+                                class="fas fa-quote-left"></i></span>
+                        <p class="lead mb-4 w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Debitis perspiciatis vero accusantium excepturi aperiam eius sit quis nobis</p>
+                        <div class="user w-25 mx-auto d-flex align-items-center">
+                            <div class="left-image w-25">
+                                <img src="./image/face1.jpg" class="rounded-circle img-fluid" alt="">
+                            </div>
+                            <div class="right-content text-start w-50 ms-3">
+                                <h5>Jeson Deo</h5>
+                                <p>User</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team section -->
+
+    <section class="team_section py-5 bg-danger bg-opacity-10">
+        <div class="container-fluid">
+            <div class="row mt-5 mb-5">
+                <div class="col-12">
+                    <h1 class="display-4 fw-normal">Our Team and History</h1>
+                </div>
+            </div>
+            <div class="row g-5 mb-5 pb-5">
+                <div class="col-lg-6">
+                    <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nemo
+                        qui odio consequuntur magni. Nostrum in asperiores dolorem error ratione odit magni delectus
+                        vero. Rem porro molestiae dolores harum. Non aperiam, perspiciatis quia, corrupti iusto ab
+                        commodi officia fuga sapiente voluptas accusamus possimus nesciunt voluptatum soluta,</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nemo
+                        qui odio consequuntur magni. Nostrum in asperiores dolorem error ratione odit magni delectus
+                        vero. Rem porro molestiae dolores harum. Non aperiam, perspiciatis quia, corrupti iusto ab
+                        commodi officia fuga sapiente voluptas accusamus possimus nesciunt voluptatum soluta,</p>
+                </div>
+            </div>
+            <div class="team_info pt-5">
+                <div class="row ">
+                    <div class="col-lg-3">
+                        <div class="menmber px-5 py-3 rounded-2 bg-white shadow-lg position-relative">
+                            <div class="image mb-5 pb-3">
+                                <img src="./image/face1.jpg" alt=""
+                                    class="rounded-circle left position-absolute top-0 start-0  translate-middle-y ms-4 shadow w-50">
+                            </div>
+                            <div class="h5">Jason Deo</div>
+                            <div class="h6 mt-3 text-muted">Pogramar</div>
+                            <p class="text-muted py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                ab.</p>
+                            <div class="button">
+                                <a href="#" class="btn px-4 mt-2 btn-outline-dark shadow-lg">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="menmber px-5 py-3 rounded-2 bg-white shadow-lg position-relative">
+                            <div class="image mb-5 pb-3">
+                                <img src="./image/face2.jpg" alt=""
+                                    class="rounded-circle left position-absolute top-0 start-0  translate-middle-y ms-4 shadow w-50">
+                            </div>
+                            <div class="h5">Amanda Swon</div>
+                            <div class="h6 mt-3 text-muted">Designer</div>
+                            <p class="text-muted py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                ab.</p>
+                            <div class="button">
+                                <a href="#" class="btn px-4 mt-2 btn-outline-success shadow-lg">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="menmber px-5 py-3 rounded-2 bg-white shadow-lg position-relative">
+                            <div class="image mb-5 pb-3">
+                                <img src="./image/face3.jpg" alt=""
+                                    class="rounded-circle left position-absolute top-0 start-0  translate-middle-y ms-4 shadow w-50">
+                            </div>
+                            <div class="h5">Andrew Smith</div>
+                            <div class="h6 mt-3 text-muted">Support</div>
+                            <p class="text-muted py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                ab.</p>
+                            <div class="button">
+                                <a href="#" class="btn px-4 mt-2 btn-outline-warning shadow-lg">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="menmber px-5 py-3 rounded-2 bg-white shadow-lg position-relative">
+                            <div class="image mb-5 pb-3">
+                                <img src="./image/face4.jpg" alt=""
+                                    class="rounded-circle left position-absolute top-0 start-0  translate-middle-y ms-4 shadow w-50">
+                            </div>
+                            <div class="h5">Jane Olsen</div>
+                            <div class="h6 mt-3 text-muted">Manager</div>
+                            <p class="text-muted py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                ab.</p>
+                            <div class="button">
+                                <a href="#" class="btn px-4 mt-2 btn-outline-danger shadow-lg">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact_section py-5 bg-opacity-10 bg-info">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="lead fs-2">We need to know your opinion</p>
+                    <h2 class="display-3 py-4">Write to us and we will contact you</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="contact_form p-4 rounded-3 shadow-lg bg-gradient bg-opacity-25 mt-5 bg-success">
+                        <div class="header">
+                            <h2 class="py-3 text-center fw-normal">Send us a massage</h2>
+                        </div>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <input type="email" name="email" id="" placeholder="Your E-mail"
+                                        class="form-control p-3 rounded-3">
+                                </div>
+                            </div>
+                            <div class="row my-3 gx-3">
+                                <div class="col-lg-6">
+                                    <input type="text" name="text" id="" placeholder="Your Name"
+                                        class="form-control p-3 rounded-3">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="tel" name="Phone" id="" placeholder="Your Phone"
+                                        class="form-control p-3 rounded-3">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <textarea name="Massage" id="" rows="5" placeholder="Your Comment"
+                                        class="p-3 form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="button my-3 mt-4 bg-opacity-25 text-center">
+                                <a href="#"
+                                    class="fw-bolder w-50 rounded-pill py-3 shadow hover_w btn-success btn">Contact
+                                    Us</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Download Section -->
+
+    <section class="download_section py-5 bg-opacity-10 bg-warning">
+        <div class="container">
+            <div class="w-75 mx-auto">
+                <div class="download_header text-center">
+                    <h1 class="display-4 ">Get our app for Android and iphone</h1>
+                </div>
+                <div class="row w-50 mx-auto g-0 text-center py-5">
+                    <div class="col-lg-6">
+                        <a href="#" class="btn btn-outline-success w-75 btn-lg"><i class="fab fa-apple"></i> App store</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#" class="btn btn-outline-danger w-75 btn-lg"><i class="lni lni-android-original"></i> Googl Play</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="image w-75 mx-auto">
+                            <img class="img-fluid img-thumbnail" src="./image/mbr-11.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+
+    <footer class="py-3 bg-dark bg-opacity-75 text-center text-white">
+        <p>&copy; 2021 Allright Reserved By <a href="#" class="fw-bolder text-warning text-decoration-none">Fcr
+                Hasan</a></p>
+    </footer>
+
+    <!--Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- The End -->
+
+</body>
+
+</html>

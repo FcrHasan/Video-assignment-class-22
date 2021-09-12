@@ -1,0 +1,117 @@
+/* =====================
+    Reset & Custome Css
+   =====================  */
+ h1,h2,h3,h4,h5,h6,p,div{
+    margin: 0;
+    padding: 0;
+}
+.text-justify{
+    text-align: justify;
+}
+.hover_w{
+    transition: .5s;
+}
+.hover_w:hover{
+    box-shadow: 0 0 15px rgb(111, 111, 111);
+    background-color: #fff !important;
+    color: rgb(13, 162, 0) !important;
+    border: 1px solid rgb(9, 182, 52);
+    box-sizing: border-box;
+}
+body .container-fluid{
+    max-width: 1260px;
+}
+
+/* Banneer sectin */
+
+.banner_section{
+    height: 600px;
+    background: url(./image/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: ;
+    position: relative;
+    z-index: 1;
+}
+.banner_section::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.364);
+    position: absolute;
+    z-index: -1;
+}
+
+/* About section */
+
+.about_section .info{
+    height: 280px;
+}
+.about_section .info .image{
+    width: 45%;
+    overflow: hidden;
+}
+.about_section .info:hover img{
+    transform: scale(1.2);
+}
+.about_section .info .image img{
+    height: 100%;
+    position: relative;
+    right: 110px;
+    transition: .5s;
+}
+.about_section .info .content{
+    width: 55%;
+}
+
+/* Gallary_area */
+/* ========
+ Gallary area te loading take hover a dite besi css korte hoiche. 
+ ======== */
+
+.galarry_section .col-lg-4{
+    height: 250px;
+}
+.galarry_section .image{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px #bbb;
+}
+.galarry_section .image img{
+    transition: .5s;
+}
+.galarry_section .image:hover img{
+    transform: scale(1.1);
+}
+.galarry_section .image::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#6278df;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.galarry_section .image:hover::after{
+    visibility: visible;
+    opacity: .5;
+}
+.galarry_section .loading{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.galarry_section .image:hover .loading{
+    visibility: visible !important;
+    opacity: 1;
+    z-index: 999;
+}
+
+/* the end */
